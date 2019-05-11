@@ -2,7 +2,7 @@ from datetime import date
 def szamolo(year,month,day):
     ma = date(year,month,day)
     mikulas = date(year,12,6)
-    nov = ma.year+1
+    nov = mikulas.year+1
     nextyear = date(nov,12,6)
     if ma > mikulas:
         mikulas = nextyear
